@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AzureSignToolSignatureProviderSigning" xml:space="preserve">
+    <value>Signing SignTool job with {count} files.</value>
+    <comment>{Placeholder="{count}"} is the number of files to be signed.</comment>
+  </data>
+  <data name="CertificateIsExpired" xml:space="preserve">
+    <value>The certificate is expired.</value>
+  </data>
+  <data name="CertificateIsNotYetTimeValid" xml:space="preserve">
+    <value>The certificate is not yet time valid.</value>
+    <comment>A certificate has a validity period with start and end dates.  "not yet time valid" means that the start date is in the future.</comment>
+  </data>
+  <data name="ClickOnceSignatureProviderSigning" xml:space="preserve">
+    <value>Signing Mage job with {count} files.</value>
+    <comment>{Locked="Mage"} is another signing tool.  {Placeholder="{count}"} is the number of files to be signed.</comment>
+  </data>
+  <data name="CliStandardError" xml:space="preserve">
+    <value>{fileName} returned the error {error}</value>
+    <comment>{Placeholder="{fileName}"} is a file name, and {Placeholder="{error}"} is verbose output from a tool.</comment>
+  </data>
+  <data name="CliStandardOutput" xml:space="preserve">
+    <value>{fileName} returned the output {output}</value>
+    <comment>{Placeholder="{fileName}"} is a file name, and {Placeholder="{output}"} is verbose output from a tool.</comment>
+  </data>
+  <data name="CreatingDirectory" xml:space="preserve">
+    <value>Creating directory {path}.</value>
+    <comment>{Placeholder="{path}"} is a directory path.</comment>
+  </data>
+  <data name="DeletedDirectory" xml:space="preserve">
+    <value>Directory {path} deleted.</value>
+    <comment>{Placeholder="{path}"} is a directory path.</comment>
+  </data>
+  <data name="DeletingDirectory" xml:space="preserve">
+    <value>Deleting directory {path}.</value>
+    <comment>{Placeholder="{path}"} is a directory path.</comment>
+  </data>
+  <data name="DirectoryNotDeleted" xml:space="preserve">
+    <value>Directory {path} still exists.</value>
+    <comment>{Placeholder="{path}"} is a directory path.</comment>
+  </data>
+  <data name="EditingAppInstaller" xml:space="preserve">
+    <value>Editing AppInstaller job with {count} files.</value>
+    <comment>{Placeholder="{count}"} is the number of files to be signed.</comment>
+  </data>
+  <data name="ErrorSigningVsix" xml:space="preserve">
+    <value>An unspecified error occurred during VSIX signing.</value>
+  </data>
+  <data name="ExceptionWhileDeletingDirectory" xml:space="preserve">
+    <value>An exception occurred while attempting to delete directory {path}.</value>
+    <comment>{Placeholder="{path}"} is a directory path.</comment>
+  </data>
+  <data name="FetchedCertificate" xml:space="preserve">
+    <value>Fetched certificate. [{milliseconds} ms]</value>
+    <comment>{Placeholder="{milliseconds}"} is a decimal number representing the number of milliseconds elapsed, and "ms" is the unit abbreviation for milliseconds.</comment>
+  </data>
+  <data name="FetchingCertificate" xml:space="preserve">
+    <value>Fetching certificate from Azure Key Vault.</value>
+  </data>
+  <data name="OpeningContainer" xml:space="preserve">
+    <value>Extracting container {ContainerFilePath} to {DirectoryPath}.</value>
+    <comment>{Placeholder="{ContainerFilePath}"} is a file path, and {Placeholder="{DirectoryPath}"} is a directory path.</comment>
+  </data>
+  <data name="ProcessCouldNotBeKilled" xml:space="preserve">
+    <value>{0} timed out and could not be killed.</value>
+    <comment>{NumberedPlaceholder="{0}"} is a file path.</comment>
+  </data>
+  <data name="ProcessDidNotExitInTime" xml:space="preserve">
+    <value>{fileName} took too long to respond. The process exit code is {exitCode}.</value>
+    <comment>{Placeholder="{fileName}"} is a file name, and {Placeholder="{exitCode}"} is a number representing the error code returned from a process.</comment>
+  </data>
+  <data name="ProcessDidNotExitInTimeWithArguments" xml:space="preserve">
+    <value>{0} took too long to respond. The process exit code is {1}. Arguments: {2}</value>
+    <comment>{NumberedPlaceholder="{0}"} is a file name.  {NumberedPlaceholder="{1}"} is a process exit code.  {NumberedPlaceholder="{2}"} is process arguments.</comment>
+  </data>
+  <data name="RunningCli" xml:space="preserve">
+    <value>Running {fileName} with parameters: '{args}'.</value>
+    <comment>{Placeholder="{fileName}"} is a file name, and {Placeholder="{args}"} is process arguments.</comment>
+  </data>
+  <data name="SavingContainer" xml:space="preserve">
+    <value>Rebuilding container {ContainerFilePath} from {DirectoryPath}.</value>
+    <comment>{Placeholder="{ContainerFilePath}"} is a file path, and {Placeholder="{DirectoryPath}"} is a directory path.</comment>
+  </data>
+  <data name="SignAsyncCalled" xml:space="preserve">
+    <value>SignAsync called for {filePath}. Using {localFilePath} locally.</value>
+    <comment>{Placeholder="{filePath}", "{localFilePath}"} are both file paths.</comment>
+  </data>
+  <data name="SigningAttempt" xml:space="preserve">
+    <value>Performing attempt #{attempt} of {maxAttempts} attempts after {seconds} s.</value>
+    <comment>{Placeholder="{attempt}", "{maxAttempts}"} are numbers representing the current attempt (as a number) and the maximum allowed attempts (as a number).  {Placeholder="{seconds}"} is a decimal number representing the number of seconds elapsed, and "s" is the unit abbreviation for seconds.</comment>
+  </data>
+  <data name="SigningFailed" xml:space="preserve">
+    <value>Could not sign {0}.</value>
+    <comment>{NumberedPlaceholder="{0}"} is a file path.</comment>
+  </data>
+  <data name="SigningFailedAfterAllAttempts" xml:space="preserve">
+    <value>Failed to sign. Attempts exceeded.</value>
+  </data>
+  <data name="SigningFailedWithError" xml:space="preserve">
+    <value>Signing failed with error {errorCode}.</value>
+    <comment>{Placeholder="{errorCode}"} is an error code.</comment>
+  </data>
+  <data name="SigningFile" xml:space="preserve">
+    <value>Signing {filePath}.</value>
+    <comment>{Placeholder="{filePath}"} is a file path.</comment>
+  </data>
+  <data name="SigningSucceeded" xml:space="preserve">
+    <value>Signing succeeded.</value>
+  </data>
+  <data name="SigningSucceededWithTimeElapsed" xml:space="preserve">
+    <value>Completed in {millseconds} ms.</value>
+    <comment>{Placeholder="{milliseconds}"} is a decimal number representing the number of milliseconds elapsed, and "ms" is the unit abbreviation for milliseconds.</comment>
+  </data>
+  <data name="SubmittingFileForSigning" xml:space="preserve">
+    <value>Submitting {filePath} for signing.</value>
+    <comment>{Placeholder="{filePath}"} is a file path.</comment>
+  </data>
+  <data name="ValueCannotBeEmptyString" xml:space="preserve">
+    <value>The value cannot be an empty string.</value>
+  </data>
+  <data name="VsixSignatureProviderSigning" xml:space="preserve">
+    <value>Signing OpenVsixSignTool job with {count} files.</value>
+    <comment>{Placeholder="{count}"} is the number of files to be signed.</comment>
+  </data>
+</root>
